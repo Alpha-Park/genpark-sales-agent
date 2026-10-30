@@ -1,0 +1,10 @@
+{
+  "name": "genpark-sales-agent",
+  "version": "1.0.0",
+  "description": "GenPark Sales Agent - BANT & MEDDIC multi-criteria qualification evaluator, price elasticity discount hurdle solver, and pipeline velocity forecaster with zero dependencies.",
+  "tools": [
+    "evaluate_bant_meddic_qualification",
+    "calculate_price_elasticity_and_discount_ceiling",
+    "forecast_pipeline_velocity_and_slippage"
+  ]
+}
