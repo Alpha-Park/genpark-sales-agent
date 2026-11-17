@@ -47,9 +47,7 @@ def forecast_pipeline_velocity_and_slippage(
     return json.dumps(res, indent=2)
 
 def main():
-    print("Testing Sales Agent:")
-    lead = {"has_budget_allocated": True, "is_economic_buyer": True, "need_urgency_score": 0.9, "implementation_timeline_months": 2}
-    print(evaluate_bant_meddic_qualification(json.dumps(lead)))
+    mcp.run(transport="stdio")
 
 if __name__ == "__main__":
     main()
